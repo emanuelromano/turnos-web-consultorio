@@ -1,0 +1,54 @@
+.info-paciente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.info-paciente .p {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.info-paciente button {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 7px auto;
+    width: 500px;
+    height: 45px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(120deg, #84dcfa 0%, #77d2ff 100%);
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.info-paciente h2 {
+    background-image: linear-gradient(120deg, #84dcfa 0%, #77d2ff 100%);
+    border-radius: 20px;
+    width: 500px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.info-paciente h3 {
+    color: rgb(0, 80, 126);
+    text-decoration: underline;
+}
+.info-paciente h4 {
+    color: rgb(0, 80, 126);
+    text-decoration: underline;
+}
+
+.imagen-turno {
+    width: 100px;
+    height: 100px;
+}

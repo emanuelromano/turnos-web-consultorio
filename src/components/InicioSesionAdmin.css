@@ -1,0 +1,28 @@
+.radio-buttons-contenedor {
+    display: flex;
+    margin: 0 auto;
+}
+
+.radio-buttons-contenedor .radio-label {
+    display: flex;
+    margin: 1px;
+    vertical-align: middle;
+}
+
+.radio-buttons-contenedor .radio {
+    width: 25px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.radio-buttons-contenedor label {
+    margin-left: 10px;
+    margin-top: 11px;
+    font-weight: bold;
+}
+
+.radio-buttons-contenedor .medio {
+    display: block;
+    width: 150px;
+    height: 5px;
+}

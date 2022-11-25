@@ -1,0 +1,207 @@
+table {
+    background-color: aliceblue;
+    border-radius: 0px 0px 18px 18px;
+    padding: 15px;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+th {
+    padding-right: 5px;
+    text-align: left;
+    color: rgb(7, 80, 99);
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+.misturnos {
+    background-color: rgb(0, 80, 126);
+    background-image: linear-gradient(147deg, rgb(0, 116, 151) 0%, rgb(0, 80, 126) 74%);
+    border-radius: 18px 18px 0px 0px;
+    padding: 15px;
+    font-size: 15px;
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+    display: inline;
+    float: left;
+    margin-top: 30px;
+}
+
+.misturnos h2 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    float: left;
+}
+
+.boton-turno {
+    display: inline;
+    float: right;
+}
+
+.boton-turnos {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    background-image: linear-gradient(120deg, #84dcfa 0%, #77d2ff 100%);
+    border: none;
+    border-radius: 18px;
+    margin: 20px;
+    font-weight: bold;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.boton-nuevo-turno {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #c741f8 50%, #7f95fa 100%);
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+    float: right;
+}
+
+.boton-mini {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    background-image: linear-gradient(120deg, #84dcfa 0%, #77d2ff 100%);
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    margin: 9px 9px 9px 25px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.boton-mini-cerrar {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #fd6b4d 0%, #ff4141 74%);
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    margin: 9px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.bienvenida {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-left: 2px;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.436);
+}
+
+.imagen-bienvenida {
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.top {
+    display: inline;
+    float: left;
+    background-color: rgb(0, 80, 126);
+    background-image: linear-gradient(147deg, rgb(0, 116, 151) 0%, rgb(0, 80, 126) 74%);
+    border-radius: 20px;
+    height: 70px;
+    width: 97%;
+    margin-left: 20px;
+}
+
+.top .top-img-titulo {
+    display: flex;
+    float: left;
+}
+
+.container-botones-mini {
+    display: inline;
+    float: right;
+}
+
+.no-turnos {
+    color: rgb(0, 80, 126);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 18px 18px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.423);
+}
+
+.boton-eliminar {
+    width: 28px;
+    height: 28px;
+    color: #b8b8b800;
+    border-radius: 3px;
+    border: 1px solid rgb(140, 140, 140);
+    background-color: #b60000;
+    background-image: url('../svg/basura.png');
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+}
+
+.boton-eliminar:hover {
+    background-color: #ff4141;
+    border-radius: 3px;
+    border: 1px solid rgb(140, 140, 140);
+    font-weight: bold;
+}
+
+.boton-imprimir {
+    width: 28px;
+    height: 28px;
+    color: #b8b8b800;
+    border-radius: 3px;
+    border: 1px solid rgb(140, 140, 140);
+    background-color: #00b3b6;
+    background-image: url('../svg/imprimir.png');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+}
+
+.boton-imprimir:hover {
+    background-color: #0ee0a4;
+    border-radius: 3px;
+    border: 1px solid rgb(140, 140, 140);
+    font-weight: bold;
+}
